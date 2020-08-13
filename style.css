@@ -157,7 +157,7 @@ color: gray;
     border-radius: 5px;
 }*/
 .bottom-section {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -346,15 +346,17 @@ color: gray;
 .most-popular li {
     border-top: 1px solid rgb(226, 226, 226);
     padding: 13px 0;
+    margin-left: -35px;
+    margin-top: -10px;
 }
 
 .section-grid {
+    
     display: grid;
     grid-template-columns: repeat(3, 272.63px);
     column-gap: 40px;
     row-gap: 10px;
     padding-bottom: 40px;
-    
     /*justify-content: space-between;*/
 }
 .section-grid .grid-item figcaption {
@@ -371,13 +373,15 @@ color: gray;
 }
 .grid-item img{
     width: 300px;
-    
-   
+    margin-left: -45px;
+    margin-top: -22px;  
 }
+
 .after-article {
     display: grid;
     grid-template-columns: 2fr 0.7fr;
-    grid-gap: 40px;
+    column-gap: 50px ;
+    row-gap: 40px ;
 }
 
 /* Footer */
